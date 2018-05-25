@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    background: brown;
+    min-height: 50px;
+    position: relative;
+    min-width: 600px;
+}
+
+/*#lampe {
+    text-decoration: underline;
+}
+
+#vodka {
+    text-decoration: overline;
+}*/
+
+/*.linkContainer {
+    width: 100%;
+    height: 10vh;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+}*/
+
+#and {
+    color: grey;
+}
+
+.pawel_l {
+    color: green;
+}
+
+.pawel_a {
+    color: orange;
+}
+
+.pawel_m {
+    color: yellow;
+}
+
+.pawel_p {
+    color: purple;
+}
+
+.pawel_e {
+    color: blue;
+}
+
+.ivan_v {
+    color: blue;
+}
+
+.ivan_o {
+    color: purple;
+}
+
+.ivan_d {
+    color: yellow;
+}
+
+.ivan_k {
+    color: orange;
+}
+
+.ivan_a {
+    color: green;
+}
+
+.link {
+    display: block;
+    width: 25%;
+   /* height: 100%;*/
+    height: 76%;
+    background: linear-gradient(red, yellow);
+    float: right;
+    padding-top: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 60px;
+    min-height: 100px;
+    font-size: 20px;
+    /*vertical-align: middle;*/
+    border: 1px solid red;
+}
+
+.header_heading {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 2em;
+    line-height: 100%;
+}
+
+.link:hover {
+    background: linear-gradient(yellow, red);
+}
+
+.section_1 {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    background-image: url("http://i.huffpost.com/gen/4784786/images/n-CODING-628x314.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section_2 {
+   width: 100%;
+   height: 40vh;
+   background-color: red;
+   min-width: 600px;
+   min-height: 250px;
+}
+
+.section_3 {
+   width: 100%;
+   height: 40vh;
+   background-color: red;
+   min-width: 600px;
+   min-height: 250px;
+}
+
+.article {
+    width: 33.33%;
+    height: 100%;
+    background: green;
+    float: right;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.article:hover {
+    background-color: white;
+    color: green;
+}
+
+.article > img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.article > .descriptionContainer {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.article > .goFurtherButton {
+   background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 30%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.goFurtherButton:hover {
+    background-color: red;
+    min-width: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background: grey;
+}
+
+#email {
+    text-decoration: underline;
+}
+
+.hjem {
+    color: green;
+    width: 100%;
+    background-color: red;
+    font-weight: bold;
+    border: 2px solid black;
+    color: orange;
+    font-family: 'Cormorant SC', serif;
+    min-height: 300px;
+}
+
+.homeImage {
+    float: right;
+}
+
+.meir {
+    width: 100%;
+    background: brown;
+}
+
+.contactInfo {
+    background: yellow;
+}
+
+.ivan_section, .pawel_section {
+    width: 50%;
+    min-width: 50%;
+    float: right;
+    background: red;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    
+}
+
+.aboutImages {
+    display: block;
+    width: 50%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.show_container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hugeButton {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background: orange;
+    color: red;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    min-height: 100px;
+    font-size: 2em;
+    font-family: 'Bowlby One SC', cursive;
+}

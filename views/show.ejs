@@ -1,0 +1,45 @@
+<% include ../partials/header.ejs%>
+
+<div class="ui pointing menu">
+  <a href="/hjem" class="item">
+    Hjem
+  </a>
+  <a href="/om" class="item">
+    Om Oss
+  </a>
+  <a href="/kontakt" class="item">
+    Kontakt
+  </a>
+  <a href="/meir" class="item">
+    Meir
+  </a>
+  <!--<div class="right menu">
+    <div class="item">
+      <div class="ui transparent icon input">
+        <input type="text" placeholder="Search...">
+       
+      </div>
+    </div>
+  </div>-->
+</div>
+</div>
+
+<section class="show_container">
+    <h1><%=skill.name%></h1>
+    <img style="margin: 0 auto; width: 50%; height: 400px; min-width: 300px;" src="<%=skill.image%>">
+    <h4><%=skill.description%></h4>
+    <p><em>Submitted By <%= skill.author %></em></p>
+    <a style="color: red; font-size: 3em" href="/skills/<%=skill._id%>/comments/new">Lag en kommentar</a>
+    <h1>Kommentarane:</h1>
+</section>
+
+<% skill.comments.forEach(function(comment) { %>
+  <div style="background-color: white; border: 1px solid black">
+      <h3 style="text-decoration: underline"><%=comment.author%></h3>
+      <h5><%=comment.content%></h5>
+  </div>
+<% }) %>
+
+
+
+<% include ../partials/footer.ejs%>
